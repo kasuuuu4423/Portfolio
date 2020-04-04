@@ -97,6 +97,18 @@ header nav ul li, header nav .sns, header nav .pp {
   color: #8d8d8d;
 }
 
+header nav .sns{
+  position: fixed;
+  bottom: 45px;
+  width: 10%;
+}
+
+header nav .pp{
+  position: fixed;
+  bottom: 20px;
+  width: 10%;
+}
+
 header nav ul li a, header nav .sns a, header nav .pp a {
   color: #fff;
 }
