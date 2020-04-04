@@ -159,6 +159,15 @@ main .profile, main .work {
   border-radius: 1px;
 }
 
+main .work .load{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  opacity: 0.4;
+}
+
 @media (max-width: 991px) {
   main .profile, main .work {
     width: calc(100% / 2 - 40px);

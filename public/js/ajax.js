@@ -44,7 +44,7 @@ let ajax = function(data_slug){
       $(htmlid).append('<img class="load" src="https://shimizoo.com/img/load.gif">');
     },
     success: function(data){
-      $('load').remove();
+      $('.load').remove();
       data = JSON.parse(data);
       let slug = data['slug'];
       let name = data['name'];
