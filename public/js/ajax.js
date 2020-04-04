@@ -40,7 +40,8 @@ let ajax = function(data_slug){
       'slug': data_slug,
     },
     beforeSend: function(){
-      $('#' + data_slug).addClass('load');
+      let htmlid = '#' + data_slug;
+      $(htmlid).addClass('load');
     },
     success: function(data){
       data = JSON.parse(data);
