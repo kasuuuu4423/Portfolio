@@ -73,6 +73,8 @@
               </ul>
             </li>
           </ul>
+          <div class="sns"></div>
+          <div class="pp"></div>
         </nav>
       </header>
       @yield('content')
