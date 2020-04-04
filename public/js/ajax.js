@@ -39,6 +39,9 @@ let ajax = function(data_slug){
     data: {
       'slug': data_slug,
     },
+    beforeSend: function(){
+      $('#' + data_slug).addClass('load');
+    },
     success: function(data){
       data = JSON.parse(data);
       let slug = data['slug'];
