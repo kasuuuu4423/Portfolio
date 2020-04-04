@@ -32,7 +32,7 @@
 
       gtag('config', 'UA-162524982-1');
     </script>
-
+    <script src="https://kit.fontawesome.com/22a502e1f6.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class="back">
@@ -73,8 +73,12 @@
               </ul>
             </li>
           </ul>
-          <div class="sns"></div>
-          <div class="pp"></div>
+          <div class="sns">
+            <a href="https://www.facebook.com/yasushi.sihmizoo"><i class="fab fa-facebook-square"></i></a>
+          </div>
+          <div class="pp">
+            <a href="{{ asset('/pp') }}">Privacy Policy</a>
+          </div>
         </nav>
       </header>
       @yield('content')
