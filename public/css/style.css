@@ -89,7 +89,7 @@ header nav ul {
   width: calc(100% - 10px * 2);
 }
 
-header nav ul li {
+header nav ul li, header nav .sns, header nav .pp {
   display: block;
   text-align: center;
   display: none;
@@ -97,7 +97,7 @@ header nav ul li {
   color: #8d8d8d;
 }
 
-header nav ul li a {
+header nav ul li a, header nav .sns a, header nav .pp a {
   color: #fff;
 }
 
