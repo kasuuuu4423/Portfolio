@@ -11,7 +11,7 @@ $(function(){
     $('main').removeClass('active');
     $('footer').removeClass('active');
   })
-  .on('touchend click', function(e){
+  .not('.sns').on('touchend click', function(e){
     e.preventDefault();
     $(this).toggleClass('active');
     $('main').toggleClass('active');
