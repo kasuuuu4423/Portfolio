@@ -74,7 +74,7 @@
             </li>
           </ul>
           <div class="sns">
-            <a href="https://www.facebook.com/yasushi.sihmizoo"><i class="fab fa-facebook-square fa-2x"></i></a>
+            <a href="https://www.facebook.com/yasushi.sihmizoo" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
           </div>
           <div class="pp">
             <a href="{{ asset('/pp') }}">Privacy Policy</a>
