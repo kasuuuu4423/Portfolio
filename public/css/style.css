@@ -123,7 +123,7 @@ header.active nav {
   opacity: 1;
 }
 
-header.active nav ul li {
+header.active nav ul li, header nav .sns, header nav .pp {
   display: block;
   margin-bottom: 0.5rem;
 }
