@@ -344,6 +344,10 @@ main .work .detail .desc, main .work .detail .cat {
     overflow: scroll;
     height: calc(100vh - 290px);
   }
+  .modal .pp-modal{
+    height: 90%;
+    margin: 50px 5%;
+  }
 }
 
 main.active {
