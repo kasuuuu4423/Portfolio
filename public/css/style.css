@@ -160,6 +160,7 @@ main {
   width: 95%;
   transition: 0.2s;
   transform: translateX(5vw);
+  padding-bottom: 50px;
 }
 
 main .wrap {
@@ -364,7 +365,7 @@ footer a{
 }
 
 footer .sns{
-  margin-right: 20px;
+  margin-right: 10px;
 }
 
 footer .sns i{
@@ -372,13 +373,15 @@ footer .sns i{
 }
 
 footer .pp{
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 footer .copyright {
   font-size: 1rem;
   color: #a9a9a9;
   width: 100%;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
 
