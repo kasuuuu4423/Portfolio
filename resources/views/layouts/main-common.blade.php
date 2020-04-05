@@ -77,11 +77,11 @@
       </header>
       @yield('content')
       <footer>
-        <div class="sns">
-          <a href="https://www.facebook.com/yasushi.sihmizoo" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
-        </div>
         <div class="pp">
           <a>Privacy Policy</a>
+        </div>
+        <div class="sns">
+          <a href="https://www.facebook.com/yasushi.sihmizoo" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
         </div>
         <div class="contact">
           <a href="mailto:info@shimizoo.com">info@shimizoo.com</a>

@@ -373,6 +373,7 @@ footer a{
 
 footer .sns{
   margin-right: 10px;
+  margin-left: 10px;
 }
 
 footer .sns i{
@@ -380,6 +381,10 @@ footer .sns i{
 }
 
 footer .pp{
+  margin-right: 10px;
+}
+
+footer .contact{
   margin-left: 10px;
 }
 
