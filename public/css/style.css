@@ -256,7 +256,7 @@ main .modal {
   z-index: 1;
 }
 
-main .pp{
+main .modal .pp-modal{
   display: none;
   width: 90%;
   margin: auto;
