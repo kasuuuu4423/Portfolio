@@ -349,14 +349,37 @@ footer {
   text-align: center;
   width: 100%;
   position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer a{
+  color: #a9a9a9;
+  cursor: pointer;
+}
+
+footer .sns{
+  margin-right: 20px;
+}
+
+footer .sns i{
+  font-size: 120%;
+}
+
+footer .pp{
+  margin-left: 20px;
 }
 
 footer .copyright {
   font-size: 1rem;
   color: #a9a9a9;
+  width: 100%;
 }
 
-footer .back-footer {
+
+
+/* footer .back-footer {
   transition: 0.2s;
   position: absolute;
   width: 5%;
@@ -372,4 +395,4 @@ footer.active .back-footer {
   footer .back-footer {
     display: none;
   }
-}
+} */

@@ -77,12 +77,11 @@
       </header>
       @yield('content')
       <footer>
-        <div class="back-footer"></div>
         <div class="sns">
           <a href="https://www.facebook.com/yasushi.sihmizoo" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
         </div>
         <div class="pp">
-          <a href="{{ asset('/pp') }}">Privacy Policy</a>
+          <a>Privacy Policy</a>
         </div>
         <div class="copyright">©2020 YasushiSHIMIZU</div>
       </footer>
