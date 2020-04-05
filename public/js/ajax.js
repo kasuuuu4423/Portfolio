@@ -18,6 +18,7 @@ $(function(){
   $('.cross').on('click', function(){
     let modal = $('.modal');
     modal.fadeOut(200);
+    $('.pp-modal').fadeOut(200);
     modal.find('.date').empty();
     modal.find('.title').empty();
     modal.find('.cat').empty();
