@@ -159,6 +159,7 @@ header.active::before {
 main {
   width: 95%;
   transition: 0.2s;
+  transform: translateX(5vw);
 }
 
 main .wrap {
@@ -262,7 +263,6 @@ main .modal {
 main .modal .pp-modal{
   display: none;
   width: 90%;
-  transform: translateX(10vw);
   margin: auto;
   height: 50vh;
   margin: 5%;
@@ -346,7 +346,7 @@ main .modal .wrap_modal .wrap_video iframe{
 }
 
 main.active {
-  transform: translateX(15vw);
+  transform: translateX(10vw);
 }
 
 footer {
