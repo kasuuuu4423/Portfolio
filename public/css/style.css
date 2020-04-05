@@ -256,6 +256,15 @@ main .modal {
   z-index: 1;
 }
 
+main .pp{
+  display: none;
+  width: 90%;
+  margin: auto;
+  height: 50vh;
+  margin: 5%;
+  overflow: scroll;
+}
+
 main .modal .cross {
   position: fixed;
   top: 10px;

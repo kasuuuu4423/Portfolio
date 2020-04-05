@@ -1,6 +1,5 @@
 $(function(){
   $('.link-work').on('click', function(){
-    
     let modal = $('.modal');
     modal.fadeOut(200);
     modal.find('.date').empty();
@@ -25,6 +24,12 @@ $(function(){
     modal.find('.link').remove();
   });
 });
+
+let pp = function(){
+  $('.wrap_modal').hide();
+  $('.modal').fadeIn(200);
+  $('.pp-modal').fadeIn(200);
+}
 
 let ajax = function(data_slug){
   $.ajaxSetup({
