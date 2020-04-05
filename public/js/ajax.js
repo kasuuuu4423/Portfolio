@@ -71,7 +71,7 @@ let ajax = function(data_slug){
       modal.find('.description').append(desc);
       modal.find('.technique').append(tech);
       if(id != null){
-        let url = '<iframe src="https://www.youtube.com/embed/'  + id + '/' + '" controls=0  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>';
+        let url = '<iframe src="https://www.youtube.com/embed/'  + id + '/' + '"  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>';
         modal.find('.wrap_video').append(url);
       }
       else{
