@@ -73,17 +73,17 @@
               </ul>
             </li>
           </ul>
-          <div class="sns">
-            <a href="https://www.facebook.com/yasushi.sihmizoo" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
-          </div>
-          <div class="pp">
-            <a href="{{ asset('/pp') }}">Privacy Policy</a>
-          </div>
         </nav>
       </header>
       @yield('content')
       <footer>
         <div class="back-footer"></div>
+        <div class="sns">
+          <a href="https://www.facebook.com/yasushi.sihmizoo" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+        </div>
+        <div class="pp">
+          <a href="{{ asset('/pp') }}">Privacy Policy</a>
+        </div>
         <div class="copyright">©2020 YasushiSHIMIZU</div>
       </footer>
       <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
