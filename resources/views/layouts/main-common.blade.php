@@ -83,6 +83,9 @@
         <div class="pp">
           <a>Privacy Policy</a>
         </div>
+        <div class="contact">
+          <a href="mailto:info@shimizoo.com">info@shimizoo.com</a>
+        </div>
         <div class="copyright">©2020 YasushiSHIMIZU</div>
       </footer>
       <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
