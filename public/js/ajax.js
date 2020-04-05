@@ -12,6 +12,9 @@ $(function(){
     let slug = $(this).attr('data-slug');
     ajax(slug);
   });
+  $('.pp').on('click', function(){
+    pp();
+  });
   $('.cross').on('click', function(){
     let modal = $('.modal');
     modal.fadeOut(200);
