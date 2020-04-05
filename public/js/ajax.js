@@ -82,6 +82,7 @@ let ajax = function(data_slug){
         let tag = '<div class="link"><dt>Link: </dt><dd><a href="' + link + '" target="_blank">' + link + '</a></dd><div>';
         modal.find('.wrap_detail').append(tag);
       }
+      $('.wrap_modal').fadeIn(200);
       $('.modal').fadeIn(200);
     }
   });
