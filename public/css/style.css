@@ -327,6 +327,9 @@ main .work .detail .desc, main .work .detail .cat {
 }
 
 @media(max-width: 991px){
+  main{
+    transform: none;
+  }
   .modal{
     height: 100%;
     width: 100%;
