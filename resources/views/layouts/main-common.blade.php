@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
-    <title>YasushiSHIMIZU</title>
-    <meta property="og:title" content="YasushiSHIMIZU">
+    <title>Yasushi SHIMIZU</title>
+    <meta property="og:title" content="Yasushi SHIMIZU">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="http://example.com/images/og-image.jpg">
-    <meta property="og:url" content="http://example.com/index.html">
+    <meta property="og:image" content="{{ asset('img/shimizu.jpg') }}">
+    <meta property="og:url" content="https://shimizoo.com/">
     <meta property="og:description" content="">
-    <meta property="og:site_name" content="YasushiSHIMIZU">
+    <meta property="og:site_name" content="Yasushi SHIMIZU">
     <meta property="og:locale" content="ja">
-    <meta property="fb:admins" content="">
-    <meta property="fb:app_id" content="">
-    <meta name="twitter:card" content="summary">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@">
-    <meta name="description" content="">
+    <meta name="description" content="清水康志の作品群。">
     <meta name="keywords" content="">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
